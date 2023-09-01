@@ -24,7 +24,8 @@ public class Main {
         List<Cat> hungryCats = new ArrayList<>();
         List<Cat> newHungryCats = new ArrayList<>();
 
-        Plate plate = new Plate(100);
+        Plate plate = new Plate();
+        plate.plateIncrease(100);
 
 
         plate.info();

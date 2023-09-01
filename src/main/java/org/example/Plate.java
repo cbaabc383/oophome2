@@ -12,9 +12,9 @@ public class Plate {
         this.food = food;
     }
 
-    public Plate(int food) {
-        this.food = food;
-    }
+//    public Plate(int food) {
+//        this.food = food;
+//    }
     public void info() {
         System.out.println("plate: " + food);
     }
